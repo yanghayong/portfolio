@@ -52,7 +52,7 @@ h1 {
   line-height: 60px;
 }
 
-p {
+.mine {
   margin: 0 auto;
   text-align: center;
   font-size: 18px;
@@ -76,4 +76,25 @@ p {
   width: 1240px;
   padding: 50px 20px;
   margin: 0 auto;
+}
+
+.piece {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+piece li {
+  height: 520px;
+  width: 560px;
+}
+
+piece li img {
+  width: 562px;
+  height: 400px;
+}
+
+.piece li .text_box h3 {
+  margin-top: 23px;
+  margin-bottom: 12px;
 }

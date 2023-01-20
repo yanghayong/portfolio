@@ -98,3 +98,7 @@ piece li img {
   margin-top: 23px;
   margin-bottom: 12px;
 }
+
+.piece li .text_box p {
+  margin-top: 20px;
+}

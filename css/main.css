@@ -103,55 +103,6 @@ piece li img {
   margin-top: 20px;
 }
 
-.work {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.work ul {
-  display: flex;
-  flex-direction: column;
-  gap: 42px;
-}
-
-.work .title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 53px;
-}
-
-.work .title h2 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.work ul li {
-  display: flex;
-}
-
-.work ul li .photo img {
-  width: 380px;
-}
-
-.work ul li .text_box {
-  margin: 26px 38px;
-}
-
-.work ul li .text_box h3 {
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.work ul li .text_box p {
-  margin-top: 22px;
-  margin-bottom: 30px;
-}
-
-.work ul li .text_box .gps {
-  font-weight: bold;
-}
-
 .footer {
   padding: 60px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.4);

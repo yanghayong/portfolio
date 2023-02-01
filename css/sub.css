@@ -69,13 +69,10 @@ piece li img {
   height: 400px;
 }
 
-.piece li .text_box h3 {
+.piece li .text_box h2 {
   margin-top: 23px;
-  margin-bottom: 12px;
-}
-
-.piece li .text_box p {
-  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .footer {

@@ -53,6 +53,14 @@ h1 {
   font-weight: bold;
 }
 
+.top h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
 .contents {
   width: 1240px;
   padding: 50px 20px;
@@ -75,7 +83,8 @@ piece li {
 .piece li .text_box h2 {
   margin-top: 23px;
   margin-bottom: 30px;
-  font-size: 30px;
+  /* font-size: 30px; */
+  color: red;
 }
 
 piece li img {

@@ -17,6 +17,33 @@ body {
   line-height: 160%;
 }
 
+.btn {
+  font-size: 16px;
+  width: 168px;
+  height: 46px;
+  border: none;
+  border-radius: 46px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #111;
+  /* margin-top: 20px; */
+  /* margin-bottom: 12px; */
+}
+
+.btn.small {
+  font-size: 14px;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #111;
+  transition: all 0.3s;
+}
+
+.btn.btn.small:hover {
+  border: 1px solid #eb5757;
+  background-color: #eb5757;
+  color: #fff;
+}
+
 h1 {
   margin: 0 auto;
   margin-top: 75px;
@@ -53,6 +80,14 @@ h1 {
   font-weight: bold;
 }
 
+.top h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
 .contents {
   width: 1240px;
   padding: 50px 20px;
@@ -65,6 +100,14 @@ h1 {
   flex-wrap: wrap;
 }
 
+.piece .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 piece li {
   height: 520px;
   width: 560px;
@@ -73,15 +116,18 @@ piece li {
 piece li img {
   width: 562px;
   height: 400px;
+  margin: 20px 0 10px 0;
 }
 
 .piece li .text_box h2 {
-  margin-top: 23px;
-  margin-bottom: 12px;
+  /* width: 127px; */
+  height: 36px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
 }
 
 .piece li .text_box p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .footer {

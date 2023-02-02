@@ -55,6 +55,8 @@ h1 {
 
 .piece {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 80px;
   flex-wrap: wrap;
 }

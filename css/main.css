@@ -47,6 +47,12 @@ h1 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
+.nav .red {
+  color: blue;
+  font-size: 26px;
+  font-weight: bold;
+}
+
 .contents {
   width: 1240px;
   padding: 50px 20px;
@@ -69,7 +75,7 @@ piece li img {
   height: 400px;
 }
 
-.piece li .text_box h3 {
+.piece li .text_box h2 {
   margin-top: 23px;
   margin-bottom: 12px;
 }

@@ -80,14 +80,6 @@ h1 {
   font-weight: bold;
 }
 
-.top h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 40px;
-  font-weight: bold;
-  color: blueviolet;
-}
-
 .contents {
   width: 1240px;
   padding: 50px 20px;
@@ -144,6 +136,9 @@ h1 {
 
 .piece li .text_box {
   margin: 20px 40px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
 }
 
 .piece li .text_box h2 {
@@ -151,10 +146,10 @@ h1 {
   font-weight: bold;
 }
 
-.piece li .text_box p {
+/* .piece li .text_box p {
   margin-top: 22px;
   margin-bottom: 30px;
-}
+} */
 
 .footer {
   padding: 60px 0;

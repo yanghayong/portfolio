@@ -53,6 +53,30 @@ h1 {
   font-weight: bold;
 }
 
+.top {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.top .go_back {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 120px;
+  font-size: 16px;
+  display: block;
+  background-color: #666;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 30px;
+}
+
+.top .go_back span {
+  display: inline-block;
+  margin-left: 12px;
+}
+
 .top h1 {
   text-align: center;
   margin-bottom: 20px;
@@ -65,31 +89,16 @@ h1 {
   width: 1240px;
   padding: 50px 20px;
   margin: 0 auto;
+  position: relative;
 }
 
 .piece {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
-  flex-wrap: wrap;
+  width: 1008px;
+  margin: 0 auto;
 }
 
-piece li {
-  height: 562px;
-  width: 400px;
-}
-
-.piece li .text_box h2 {
-  margin-top: 23px;
-  margin-bottom: 30px;
-  /* font-size: 30px; */
-  /* color: red; */
-}
-
-piece li img {
-  width: 562px;
-  height: 400px;
+.piece img {
+  width: 1008px;
 }
 
 .footer {

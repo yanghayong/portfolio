@@ -103,7 +103,7 @@ h1 {
 }
 
 .main h2 {
-  color: blue;
+  /* color: blue; */
   font-size: 30px;
   /* font-weight: bold; */
 }
@@ -132,42 +132,6 @@ h1 {
   margin-top: 18px;
   margin-bottom: 65px;
 }
-
-/* .piece {
-  display: flex;
-  gap: 80px;
-  flex-wrap: wrap;
-}
-
-.piece .title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-piece li {
-  height: 520px;
-  width: 560px;
-}
-
-piece li img {
-  width: 562px;
-  height: 400px;
-  margin: 20px 0 10px 0;
-}
-
-.piece li .text_box h2 {
-  /* width: 127px; */
-  /* height: 36px; */
-  /* margin-top: 20px; */
-  /* margin-bottom: 10px; */
-}
-
-/* .piece li .text_box p {
-  margin-top: 10px;
-} */ */
 
 .footer {
   padding: 60px 0;

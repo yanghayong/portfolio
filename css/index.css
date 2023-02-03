@@ -93,63 +93,56 @@ h1 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.title h2 {
+
+.main {
+  margin-top: 30px;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main h2 {
+  color: blue;
   font-size: 30px;
   /* font-weight: bold; */
 }
 
-/* .piece {
-  margin-top: 100px;
-  margin-bottom: 100px;
-} */
-
-.piece ul {
+.piece {
   display: flex;
-  flex-direction: column;
-  gap: 42px;
+  gap: 80px;
+  flex-wrap: wrap;
 }
 
 .piece .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 53px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.piece .title h2 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.piece li {
+piece li {
   height: 520px;
   width: 560px;
-  display: flex;
-  align-items: center;
 }
 
-.piece li .photo img {
+piece li img {
   width: 562px;
   height: 400px;
   margin: 20px 0 10px 0;
 }
 
-.piece li .text_box {
-  margin: 20px 40px;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
-}
-
 .piece li .text_box h2 {
-  font-size: 32px;
-  font-weight: bold;
+  /* width: 127px; */
+  height: 36px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
 }
 
-/* .piece li .text_box p {
-  margin-top: 22px;
-  margin-bottom: 30px;
-} */
+.piece li .text_box p {
+  margin-top: 10px;
+}
 
 .footer {
   padding: 60px 0;

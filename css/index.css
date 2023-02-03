@@ -108,7 +108,32 @@ h1 {
   /* font-weight: bold; */
 }
 
-.piece {
+.piece li {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.piece .photo {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.piece .text_box {
+  color: var(--dark);
+  padding: 10px 0;
+}
+
+.piece .text_box h2 {
+  font-size: 32px;
+}
+.piece .text_box p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 18px;
+  margin-bottom: 65px;
+}
+
+/* .piece {
   display: flex;
   gap: 80px;
   flex-wrap: wrap;
@@ -135,14 +160,14 @@ piece li img {
 
 .piece li .text_box h2 {
   /* width: 127px; */
-  height: 36px;
+  /* height: 36px; */
   /* margin-top: 20px; */
   /* margin-bottom: 10px; */
 }
 
-.piece li .text_box p {
+/* .piece li .text_box p {
   margin-top: 10px;
-}
+} */ */
 
 .footer {
   padding: 60px 0;
